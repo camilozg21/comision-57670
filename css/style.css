@@ -1,0 +1,283 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header-index{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 1.875rem;
+}
+
+.header-index img{
+    height: 5rem;
+}
+
+.header-index .navbar{
+    list-style: none;
+    display: flex;
+    gap: 1.875rem;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header-index .navbar li a{
+    text-decoration: none;
+    color: black;
+}
+
+.header-index .navbar button{
+    padding: 1rem;
+    background-color: rgb(174, 174, 174);
+    border-radius: .9375rem;
+}
+
+.header-index .navbar button a{
+    text-decoration: none;
+    color: white;
+}
+
+.titulo{
+    width: 100%;
+    height: 35rem;
+    align-content: center;
+    background-image: url("https://fukutex.com/wp-content/uploads/2023/06/movil_Mesa-de-trabajo-1.jpg");
+}
+
+.titulo h1{
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.productos{
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+
+h2{
+    display: flex;
+    justify-content: center;
+    margin: 3rem;
+}
+
+.productos .contenedor-cards{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.productos .contenedor-cards .card{
+    height: 11.25rem;
+    width: 11.25rem;
+    margin: 0.5rem;
+}
+
+.productos .contenedor-cards .card .card-img{ 
+    width: 100%;
+    height: 100%;
+}
+
+.productos .contenedor-cards .card .card-img img{ 
+    width: 100%;
+    height: 100%;
+}
+
+.clientes{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+}
+
+.clientes .testimonios{
+    display: flex;
+    background-color: gray;
+    width: 28rem;
+    height: 14rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    margin: 1rem;
+}
+
+.clientes .testimonios div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.iniciar-sesion{
+    background-image: url('https://plus.unsplash.com/premium_photo-1682148926558-1193cab1b79b?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+}
+
+.iniciar-sesion .ingreso{
+    height: 25rem;
+    width: 20rem;
+    background-color: rgba(128, 128, 128, 0.599);
+}
+
+.iniciar-sesion .ingreso button{
+    padding: 0.5rem;
+    margin: 0.5rem;
+    border-radius: 0.5rem;
+}
+
+.contenedor-formulario{
+    width: 80%;
+    height: 20rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contenedor-formulario .formulario{
+    width: 70%;
+}
+
+.contenedor-formulario .formulario form input{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    margin: 1rem;
+}
+
+.contenedor-formulario .formulario form .mensaje{
+    height: 8rem;
+}
+
+.contenedor-formulario .datos-de-contacto{
+    background-color: dimgray;
+    width: 30%;
+}
+
+.contenedor-formulario .datos-de-contacto h3{
+    color: white;
+}
+
+.contenedor-formulario .datos-de-contacto div{
+    color: white;
+}
+
+.nosotros .img-produccion{
+    width: 40rem;
+    height: 10rem;
+    border: solid;
+}
+
+.nosotros .img-produccion img{
+    width: 100%;
+    height: 100%;
+}
+
+.mision-vision{
+    display: flex;
+    margin: 10rem 0rem;
+}
+
+.mision-vision .texto-mision{
+    width: 70%;
+    padding: 1rem 5rem;
+}
+
+.mision-vision h3{
+    display: flex;
+    padding: 0rem 15rem;
+    background-color: gray;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenido-referencias h1{
+    padding: 2rem;
+    text-align: center;
+}
+
+.contenido-referencias .cuerpo-referencias{
+    display: flex;
+    justify-content: space-between;
+}
+
+.contenido-referencias .cuerpo-referencias .menu-referencias .referencia{
+    margin: 2rem 5rem;
+    border-bottom: solid;
+}
+
+.contenido-referencias .cuerpo-referencias .contenedor-cards{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.contenido-referencias .cuerpo-referencias .contenedor-cards .card-referencia{
+    width: 15rem;
+    height: 25rem;
+    background-color: rgba(211, 211, 211, 0.209);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.438);
+    margin: 0.5rem;
+}
+
+.contenido-referencias .cuerpo-referencias .contenedor-cards .card-referencia .card-referencias-img{
+    width: 100%;
+    height: 60%;
+}
+
+.contenido-referencias .cuerpo-referencias .contenedor-cards .card-referencia .card-referencias-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+
+.contenido-referencias .cuerpo-referencias .contenedor-cards .card-referencia .card-referencias-info{
+    padding: 1rem;
+}
+
+.contenido-referencias .cuerpo-referencias .contenedor-cards .card-referencia .card-referencias-info ul li{
+    list-style: none;
+}
+
+
+.footer-index{
+    height: 10rem;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.footer-index .mejor-vendidos{
+    text-decoration: none;
+    color: white;
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+.footer-index .mejor-vendidos div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-index .informacion-de-contacto{
+    text-decoration: none;
+    color: white;
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+.footer-index .informacion-de-contacto h4{
+    text-decoration: none;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-index .informacion-de-contacto div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
