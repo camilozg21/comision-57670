@@ -204,14 +204,14 @@ h2{
 
 .nosotros .img-produccion{
     margin: 0rem 2rem;
-    height: 10rem;
-    border: solid;
+    height: 25rem;
     align-items: center;
 }
 
 .nosotros .img-produccion img{
     width: 100%;
     height: 100%;
+    object-fit: contain;
 }
 
 .mision-vision{
@@ -230,6 +230,47 @@ h2{
     background-color: gray;
     justify-content: center;
     align-items: center;
+}
+
+@media (max-width:768px) {
+    .mision-vision{
+        display: block;
+        justify-content: center;
+        margin: 5rem 0rem;
+    }
+
+    .mision-vision .texto-mision{
+        width: 100%;
+        padding: 1rem 5rem;
+    }
+
+    .mision-vision h3{
+        display: block;
+        width: 80%;
+        background-color: gray;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media (max-width:425px) {
+    .nosotros .img-produccion{
+        height: 15rem;
+    }
+    .mision-vision{
+        margin: 3rem 0rem;
+    }
+
+    .mision-vision .texto-mision{
+        width: 100%;
+        padding: 1rem;
+    }
+
+    .mision-vision h3{
+        width: 100%;
+        padding: 1rem 0rem;
+        text-align: center;
+    }
 }
 
 .contenido-referencias h1{
@@ -308,4 +349,16 @@ h2{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+@media (max-width:425px) {
+    .footer-index{
+        display: block;
+        height: 30rem;
+        padding: 1rem 0rem;
+    }
+
+    .footer-index .mejor-vendidos{
+        margin: 3rem;
+    }
 }
