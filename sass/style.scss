@@ -1,0 +1,25 @@
+/*utilities*/
+
+/*base*/
+@import "./base/reset";
+@import "./base/typografias";
+
+/*layout*/
+
+@import "./layout/main-index";
+@import "./layout/main-iniciar-sesion";
+@import "./layout/main-contactanos";
+@import "./layout/main-nosotros";
+@import "./layout/main-productos";
+@import "./layout/footer";
+
+/*components*/
+@import "./components/button";
+
+/*media queries*/
+@import "./layout/media/media1220";
+@import "./layout/media/media940";
+@import "./layout/media/media768";
+@import "./layout/media/media565";
+@import "./layout/media/media425";
+@import "./layout/media/media375";

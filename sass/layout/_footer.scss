@@ -1,0 +1,29 @@
+.footer-index{
+    height: 10rem;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    .mejor-vendidos{
+        text-decoration: none;
+        color: white;
+        display: block;
+        justify-content: center;
+        align-items: center;
+        div{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        h4{
+            text-decoration: none;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+}

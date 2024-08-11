@@ -1,0 +1,36 @@
+.nosotros{
+    h1{
+        font-size: 2.5rem;
+        padding: 1.5rem;
+        text-align: center;
+    }
+    p{
+        margin: 2rem;
+    }
+    .img-produccion{
+        margin: 0rem 2rem;
+        height: 25rem;
+        align-items: center;
+        img{
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+    }
+}
+
+.mision-vision{
+    display: flex;
+    margin: 10rem 0rem;
+    h3{
+        display: flex;
+        padding: 0rem 15rem;
+        background-color: gray;
+        justify-content: center;
+        align-items: center;
+    }
+    .texto-mision{
+        width: 70%;
+        padding: 1rem 5rem;
+    }
+}

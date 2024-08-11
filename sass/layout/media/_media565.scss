@@ -1,0 +1,35 @@
+@media (max-width:565px) {
+    .productos{
+        .contenedor-cards{
+            grid-template-columns: repeat(2, 11.75rem);
+            .card-4{
+                display: none;
+            }
+            .card-5{
+                display: none;
+            }
+        }
+    }
+    .contenido-referencias{
+        .cuerpo-referencias{
+            .contenedor-cards{
+                grid-template-columns: repeat(1,16rem);
+                .r10{
+                    display: none;
+                }
+                .r9{
+                    display: none;
+                }
+                .r8{
+                    display: none;
+                }
+                .r7{
+                    display: none;
+                }
+                .r6{
+                    display: none;
+                }
+            }
+        }
+    }
+}

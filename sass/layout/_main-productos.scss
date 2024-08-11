@@ -1,0 +1,47 @@
+.contenido-referencias{
+    h1{
+        padding: 2rem;
+        text-align: center;
+    }
+    .cuerpo-referencias{
+        display: flex;
+        justify-content: space-between;
+        .menu-referencias{
+            .referencia{
+                margin: 2rem;
+                border-bottom: solid;
+            }
+        }
+        .contenedor-cards{
+            display: grid;
+            justify-content: center;
+            grid-template-columns: repeat(4,1fr);
+            grid-template-rows: repeat(5,27rem);
+            margin: 2rem;
+            .card-referencia{
+                width: 15rem;
+                height: 25rem;
+                background-color: rgba(211, 211, 211, 0.209);
+                box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.438);
+                margin: 0.5rem;
+                .card-referencias-img{
+                    width: 100%;
+                    height: 60%;
+                    img{
+                        width: 100%;
+                        height: 100%;
+                        object-fit: fill;
+                    }
+                }
+                .card-referencias-info{
+                    padding: 1rem;
+                    ul{
+                        li{
+                            list-style: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

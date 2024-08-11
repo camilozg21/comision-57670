@@ -1,0 +1,71 @@
+@media (max-width:768px) {
+    .mision-vision{
+        display: block;
+        justify-content: center;
+        margin: 5rem 0rem;
+        h3{
+            display: block;
+            width: 80%;
+            background-color: gray;
+            justify-content: center;
+            align-items: center;
+        }
+        .texto-mision{
+            width: 100%;
+            padding: 1rem 5rem;
+        }
+    }
+    .contenedor-formulario{
+        display: grid;
+        grid-template-rows: 55% 45%;
+        .formulario{
+            grid-column: 1/3;
+            grid-row: 1/2;
+        }
+        .datos-de-contacto{
+            height: 18.75rem;
+            justify-content: center;
+            align-items: center;
+            grid-column: 1/3;
+            grid-row: 2/3;
+        }
+    } 
+    .productos{
+        .contenedor-cards{
+            grid-template-columns: repeat(3, 11.75rem);
+            .card-6{
+                display: none;
+            }
+            .card-7{
+                display: none;
+            }
+        }
+    }
+    .clientes{
+        .testimonio-3{
+            display: none;
+        }
+    }
+    .contenido-referencias{
+        .cuerpo-referencias{
+            .contenedor-cards{
+                grid-template-columns: repeat(2,16rem);
+                .r15{
+                    display: none;
+                }
+                .r14{
+                    display: none;
+                }
+                .r13{
+                    display: none;
+                }
+                .r12{
+                    display: none;
+                }
+                .r11{
+                    display: none;
+                }
+            }
+        }
+    }
+}

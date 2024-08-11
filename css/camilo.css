@@ -1,0 +1,364 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*
+.header-index{
+    font-family: "Poppins", sans-serif;
+    font-size: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 1rem;
+}
+
+.header-index img{
+    height: 5rem;
+}
+
+.header-index nav{
+    width: 70%;
+}
+
+.header-index .navbar{
+    list-style: none;
+    display: flex;
+    gap: 1.875rem;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header-index .navbar li a{
+    text-decoration: none;
+    color: black;
+}
+
+.header-index button{
+    padding: 1rem;
+    background-color: rgb(174, 174, 174);
+    border-radius: .9375rem;
+}
+*/
+.header-index button a{
+    text-decoration: none;
+    color: black;
+}
+
+main{
+    font-family: "Poppins", sans-serif;
+}
+
+.titulo{
+    width: 100%;
+    height: 35rem;
+    align-content: center;
+    background-image: url("https://fukutex.com/wp-content/uploads/2023/06/movil_Mesa-de-trabajo-1.jpg");
+}
+
+.titulo h1{
+    font-size: 3.75rem;
+    font-weight: 400;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+h2{
+    display: flex;
+    justify-content: center;
+    margin: 3rem;
+}
+
+.productos .contenedor-cards{
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(5, 11.75rem);
+    grid-template-rows: repeat(2, 11.75rem);
+    justify-content: center;
+}
+
+.productos .contenedor-cards .card{
+    height: 11.25rem;
+    width: 11.25rem;
+    margin: 0.5rem;
+}
+
+.productos .contenedor-cards .card .card-img{ 
+    width: 100%;
+    height: 100%;
+}
+
+.productos .contenedor-cards .card .card-img img{ 
+    width: 100%;
+    height: 100%;
+}
+
+.clientes{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+}
+
+.clientes .testimonios{
+    text-align: center;
+    display: flex;
+    background-color: gray;
+    width: 28rem;
+    height: 14rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    margin: 1rem;
+}
+
+.clientes .testimonios div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*Aquí voy*/
+.iniciar-sesion{
+    background-image: url('https://plus.unsplash.com/premium_photo-1682148926558-1193cab1b79b?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+}
+
+.container{
+    background-color: rgba(128, 128, 128, 0.599);
+}
+
+.contenedor{
+    justify-content: center;
+}
+
+.contenedor h1{
+    text-align: center;
+    margin: 1rem;
+}
+
+.contenedor .contenedor-formulario{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 60% 40%;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.contenedor .contenedor-formulario .formulario{
+    padding: 1rem;
+}
+
+.contenedor .contenedor-formulario .formulario form input{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 1rem 0rem;
+}
+
+.contenedor .contenedor-formulario .formulario form .mensaje{
+    height: 8rem;
+}
+
+.contenedor .contenedor-formulario .datos-de-contacto{
+    background-color: dimgray;
+    margin: 1rem;
+    align-items: center;
+}
+
+.contenedor .contenedor-formulario .datos-de-contacto h3{
+    color: white;
+    width: 100%;
+    text-align: center;
+    font-size: 2rem;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+.contenedor .contenedor-formulario .datos-de-contacto .bloque{
+    margin: 0.75rem;
+}
+
+.contenedor .contenedor-formulario .datos-de-contacto .bloque div{
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+    justify-content: center;
+}
+
+.mapa{
+    width: 100%;
+    padding: 2rem;
+    align-items: center;
+}
+
+.nosotros h1{
+    font-size: 2.5rem;
+    padding: 1.5rem;
+    text-align: center;
+}
+
+.nosotros p{
+    margin: 2rem;
+}
+
+.nosotros .img-produccion{
+    margin: 0rem 2rem;
+    height: 25rem;
+    align-items: center;
+}
+
+.nosotros .img-produccion img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.mision-vision{
+    display: flex;
+    margin: 10rem 0rem;
+}
+
+.mision-vision .texto-mision{
+    width: 70%;
+    padding: 1rem 5rem;
+}
+
+.mision-vision h3{
+    display: flex;
+    padding: 0rem 15rem;
+    background-color: gray;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width:768px) {
+    .mision-vision{
+        display: block;
+        justify-content: center;
+        margin: 5rem 0rem;
+    }
+
+    .mision-vision .texto-mision{
+        width: 100%;
+        padding: 1rem 5rem;
+    }
+
+    .mision-vision h3{
+        display: block;
+        width: 80%;
+        background-color: gray;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media (max-width:425px) {
+    .nosotros .img-produccion{
+        height: 15rem;
+    }
+    .mision-vision{
+        margin: 3rem 0rem;
+    }
+
+    .mision-vision .texto-mision{
+        width: 100%;
+        padding: 1rem;
+    }
+
+    .mision-vision h3{
+        width: 100%;
+        padding: 1rem 0rem;
+        text-align: center;
+    }
+}
+
+.contenido-referencias h1{
+    padding: 2rem;
+    text-align: center;
+}
+
+.contenido-referencias .cuerpo-referencias{
+    display: flex;
+    justify-content: space-between;
+}
+
+.contenido-referencias .cuerpo-referencias .menu-referencias .referencia{
+    margin: 2rem 5rem;
+    border-bottom: solid;
+}
+
+.contenido-referencias .cuerpo-referencias .contenedor-cards{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.contenido-referencias .cuerpo-referencias .contenedor-cards .card-referencia{
+    width: 15rem;
+    height: 25rem;
+    background-color: rgba(211, 211, 211, 0.209);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.438);
+    margin: 0.5rem;
+}
+
+.contenido-referencias .cuerpo-referencias .contenedor-cards .card-referencia .card-referencias-img{
+    width: 100%;
+    height: 60%;
+}
+
+.contenido-referencias .cuerpo-referencias .contenedor-cards .card-referencia .card-referencias-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+
+.contenido-referencias .cuerpo-referencias .contenedor-cards .card-referencia .card-referencias-info{
+    padding: 1rem;
+}
+
+.contenido-referencias .cuerpo-referencias .contenedor-cards .card-referencia .card-referencias-info ul li{
+    list-style: none;
+}
+
+
+.footer-index{
+    height: 10rem;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.footer-index .mejor-vendidos{
+    text-decoration: none;
+    color: white;
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+.footer-index .mejor-vendidos div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-index .mejor-vendidos h4{
+    text-decoration: none;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width:425px) {
+    .footer-index{
+        display: block;
+        height: 30rem;
+        padding: 1rem 0rem;
+    }
+
+    .footer-index .mejor-vendidos{
+        margin: 3rem;
+    }
+}

@@ -1,0 +1,24 @@
+@media (max-width:1220px) {
+    .contenido-referencias{
+        .cuerpo-referencias{
+            .contenedor-cards{
+                grid-template-columns: repeat(3,1fr);
+                .r20{
+                    display: none;
+                }
+                .r19{
+                    display: none;
+                }
+                .r18{
+                    display: none;
+                }
+                .r17{
+                    display: none;
+                }
+                .r16{
+                    display: none;
+                }
+            }
+        }
+    }
+}
