@@ -48,6 +48,9 @@ h2 {
       .productos .contenedor-cards .card .card-img img {
         width: 100%;
         height: 100%; }
+  .productos .contenedor-cards .card:hover {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.438);
+    filter: opacity(70%); }
 
 .titulo-clientes {
   margin-top: 1rem; }
@@ -81,6 +84,10 @@ h2 {
   background-color: rgba(128, 128, 128, 0.599);
   margin-bottom: 4rem; }
 
+.form-iniciar-sesion input:hover::placeholder {
+  background-color: rgba(128, 128, 128, 0.24);
+  color: green; }
+
 .contenedor {
   justify-content: center; }
   .contenedor h1 {
@@ -101,6 +108,8 @@ h2 {
         justify-content: center;
         width: 100%;
         margin: 1rem 0rem; }
+      .contenedor .contenedor-formulario .formulario form input:focus {
+        background-color: rgba(128, 128, 128, 0.204); }
       .contenedor .contenedor-formulario .formulario form .mensaje {
         height: 8rem; }
     .contenedor .contenedor-formulario .datos-de-contacto {
@@ -177,7 +186,6 @@ h2 {
       width: 15rem;
       height: 25rem;
       background-color: rgba(211, 211, 211, 0.209);
-      box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.438);
       margin: 0.5rem; }
       .contenido-referencias .cuerpo-referencias .contenedor-cards .card-referencia .card-referencias-img {
         width: 100%;
@@ -190,6 +198,9 @@ h2 {
         padding: 1rem; }
         .contenido-referencias .cuerpo-referencias .contenedor-cards .card-referencia .card-referencias-info ul li {
           list-style: none; }
+    .contenido-referencias .cuerpo-referencias .contenedor-cards .card-referencia:hover {
+      box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.438);
+      filter: opacity(70%); }
 
 .footer-index {
   height: 10rem;
@@ -219,6 +230,9 @@ h2 {
 .botonheader a {
   text-decoration: none;
   color: black; }
+
+.boton-iniciar-sesion:active {
+  background-color: green; }
 
 /*media queries*/
 @media (max-width: 1220px) {

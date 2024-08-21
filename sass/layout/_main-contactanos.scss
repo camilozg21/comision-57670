@@ -21,6 +21,9 @@
                     width: 100%;
                     margin: 1rem 0rem;
                 }
+                input:focus{
+                    background-color: rgba(128, 128, 128, 0.204);
+                }
                 .mensaje{
                     height: 8rem;
                 }

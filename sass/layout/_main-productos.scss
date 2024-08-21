@@ -22,7 +22,6 @@
                 width: 15rem;
                 height: 25rem;
                 background-color: rgba(211, 211, 211, 0.209);
-                box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.438);
                 margin: 0.5rem;
                 .card-referencias-img{
                     width: 100%;
@@ -41,6 +40,10 @@
                         }
                     }
                 }
+            }
+            .card-referencia:hover{
+                box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.438);
+                filter: opacity(70%);
             }
         }
     }

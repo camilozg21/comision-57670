@@ -33,6 +33,10 @@
             }
         }
     }
+    .card:hover{
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.438);
+        filter: opacity(70%);
+    }
 }
 
 .titulo-clientes{

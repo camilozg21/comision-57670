@@ -10,3 +10,10 @@
     background-color: rgba(128, 128, 128, 0.599);
     margin-bottom: 4rem;
 }
+
+.form-iniciar-sesion{
+    input:hover::placeholder{
+        background-color: rgba(128, 128, 128, 0.24);
+        color: green;
+    }
+}
