@@ -1,0 +1,6 @@
+@mixin grid($columnas,$filas,$tamanocolumnas,$tamanofilas) {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat($columnas,$tamanocolumnas);
+    grid-template-rows: repeat($filas,$tamanofilas);
+}

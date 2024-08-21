@@ -13,10 +13,7 @@
             }
         }
         .contenedor-cards{
-            display: grid;
-            justify-content: center;
-            grid-template-columns: repeat(4,1fr);
-            grid-template-rows: repeat(5,27rem);
+            @include grid(4,5,1fr,27rem);
             margin: 2rem;
             .card-referencia{
                 width: 15rem;
@@ -44,6 +41,7 @@
             .card-referencia:hover{
                 box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.438);
                 filter: opacity(70%);
+                transform: scale(1.1);
             }
         }
     }

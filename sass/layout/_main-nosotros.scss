@@ -19,7 +19,7 @@
     }
 }
 
-.mision-vision{
+.mision{
     display: flex;
     margin: 10rem 0rem;
     h3{
@@ -30,6 +30,14 @@
         align-items: center;
     }
     .texto-mision{
+        width: 70%;
+        padding: 1rem 5rem;
+    }
+}
+
+.vision{
+    @extend .mision;
+    .texto-vision{
         width: 70%;
         padding: 1rem 5rem;
     }
